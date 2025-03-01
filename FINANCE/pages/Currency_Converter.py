@@ -3,7 +3,7 @@ import requests
 import google.generativeai as genai
 
 # Set up Google Gemini API
-GENAI_API_KEY = "AIzaSyCWl0CpJtyV348SJ9DwOpRLcEKmMaW8ZMw"
+GENAI_API_KEY = "GOOGLE_API_KEY"
 genai.configure(api_key=GENAI_API_KEY)
 
 # Exchange rate API key
