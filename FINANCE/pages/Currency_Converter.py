@@ -7,7 +7,7 @@ GENAI_API_KEY = "GOOGLE_API_KEY"
 genai.configure(api_key=GENAI_API_KEY)
 
 # Exchange rate API key
-EXCHANGE_RATE_API_KEY = "b11799c6346665da9664fec1"
+EXCHANGE_RATE_API_KEY = "EXCHANGE_RATE_API_KEY"
 EXCHANGE_API_URL = f"https://v6.exchangerate-api.com/v6/{EXCHANGE_RATE_API_KEY}/latest/"
 
 # Function to get exchange rates
