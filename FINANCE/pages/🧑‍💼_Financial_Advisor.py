@@ -8,7 +8,7 @@ import os
 
 st.set_page_config(page_title="Financial Advisor",layout="wide",page_icon="🧑‍💼")
 # Configure Gemini API
-client = genai.Client(api_key="AIzaSyBWc7Ym6qMSo04uD-KtfT1JSin5AqhtyNg")
+client = genai.Client(api_key="GOOGLE_API_KEY")
 
 st.title("Smart Finance Advisor")
 st.write("Get personalized financial advice based on your income, expenses, and goals.")
