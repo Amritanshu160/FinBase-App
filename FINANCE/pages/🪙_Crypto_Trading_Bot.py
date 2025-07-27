@@ -210,7 +210,7 @@ def main():
                         st.write(f"Title: {ticker_news.news[i]["content"]["title"]}")
                         st.write(f"Summary: {ticker_news.news[i]["content"]["summary"]}")
                         st.write(f"Date Published: {ticker_news.news[i]["content"]["pubDate"]}")
-                        st.write(f"View Full Article: {ticker_news.news[0]["content"]["canonicalUrl"]["url"]}")
+                        st.write(f"View Full Article: {ticker_news.news[i]["content"]["canonicalUrl"]["url"]}")
 
                 # Preprocess and prepare LSTM inputs
                 st.header("Preparing Data")
